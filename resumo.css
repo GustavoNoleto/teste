@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* The button used to open the sidebar */
+.fechar button {
+    font-size: 40px; /* Aumenta o tamanho do símbolo de fechar */
+    background-color: #3E8E41;
+    border: #3E8E41;
+    color: #FFDE00;
+    cursor: pointer;
+    margin-left: 220px;
+
+}
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    margin-left: 0;
+  }
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+/* Barra Lateral */
+.sidebar {
+    background-color: #3E8E41;
+    width: 250px;
+    color: white;
+}
+
+.user-profile {
+    text-align: center;
+}
+
+.user-profile img {
+    width: 80px;
+    height: 80px;
+}
+
+.user-profile h3 {
+    margin-top: 10px;
+}
+
+.user-profile a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu {
+    margin-top: 30px;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu li {
+    margin-bottom: 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+
+/* Conteúdo Principal */
+.main-content {
+    flex-grow: 1;
+    padding: 30px;
+    background-color: #f4f4f4;
+}
+
+.apagar{
+    display: flex;
+    width: 100%;
+}
+
+.plan-header {
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 800px;
+}
+
+.plan-header h2 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    
+}
+
+.plan-header p {
+    color: gray;
+}
+
+.reward-section {
+    display: flex;
+    justify-content: flex-end;
+
+    
+}
+
+.reward-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 420px;
+}
+
+.reward-box h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.amount {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+}
+
+.details-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Incentivos e Metas */
+.incentives{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 80px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.incentives h3 {
+    font-size: em;
+    margin-bottom: 10px;
+}
+
+/* Estilizar o contêiner que envolve as metas */
+.Metas-container {
+    display: flex; /* Definindo o layout como flex para que os itens fiquem lado a lado */
+    justify-content: space-between; /* Opcional: adiciona espaço entre as metas */
+    gap: 20px; /* Espaço entre as metas */
+}
+
+/* Estilizar as metas individualmente */
+.Metas {
+    flex: 1; /* Para que cada meta ocupe espaço igual */
+    background-color: #ffffff;
+    color: rgb(0, 0, 0); /* Texto em branco para contraste */
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
